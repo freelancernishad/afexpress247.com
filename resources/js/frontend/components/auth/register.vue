@@ -88,7 +88,7 @@ export default {
             this.form.ref_by = this.$route.query.ref;
             this.refer = 1;
         } else {
-            this.form.ref_by = "SF33222";
+            this.form.ref_by = "AF33222";
             this.refercheck();
         }
         this.form.country = "+880";

@@ -22,7 +22,7 @@
             <p>My QR code</p>
             <img :src="'https://chart.googleapis.com/chart?chs=200x200&cht=qr&chl='+ref+'&choe=UTF-8'" class="img-thumbnail w-75" :alt='ref'/>
           </div>
-          <p class="pb-5 px-5 py-2">The app provides an exclusive link and an exclusive QR code, send it to your friends, and you will get a 8% rebate.</p>
+          <p class="pb-5 px-5 py-2">The app provides an exclusive link and an exclusive QR code, send it to your friends, and you will get a 12% rebate.</p>
         </div>
 
 

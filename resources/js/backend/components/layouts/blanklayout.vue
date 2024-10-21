@@ -7,28 +7,28 @@
         <footer class="fixed-footer mt-4 pt-5">
         <div class="text-center fixed-footer-bg border-top d-flex footer-row justify-content-around mt-3 pt-3 px-3"
             style="position: fixed; bottom: 0; width: 100%;background: white; margin-left: 0;">
-            <router-link :to="{name:'Authuser'}" class="defaltColor navLink">
+            <router-link :to="{name:'Authuser'}" class="defaltColor3 navLink">
                 <i class="fa-duotone fa-house"></i>
                 <!-- <img class="footer-img" :src="$asseturl+'img/home.png'" alt="image1"> -->
                 <p>HOME</p>
             </router-link>
 
-            <router-link :to="{name:'team'}" class="defaltColor navLink">
+            <router-link :to="{name:'team'}" class="defaltColor3 navLink">
                 <!-- <img class="footer-img" :src="$asseturl+'img/5t.png'" alt="image1"> -->
                 <i class="fa-solid fa-users-medical"></i>
                 <p>TEAM</p>
             </router-link>
-            <router-link :to="{name:'Earning'}" class="defaltColor navLink">
+            <router-link :to="{name:'Earning'}" class="defaltColor3 navLink">
                 <!-- <img class="footer-img" :src="$asseturl+'img/2ee.png'" alt="image1"> -->
                 <i class="fa-duotone fa-list-check"></i>
                 <p>TASK</p>
             </router-link>
-            <router-link :to="{name:'package'}" class="defaltColor navLink">
+            <router-link :to="{name:'package'}" class="defaltColor3 navLink">
                 <!-- <img class="footer-img" :src="$asseturl+'img/1ss.png'" alt="image1"> -->
                 <i class="fa-duotone fa-cube"></i>
                 <p>PLAN</p>
             </router-link>
-            <router-link :to="{name:'account'}" class="defaltColor navLink">
+            <router-link :to="{name:'account'}" class="defaltColor3 navLink">
                 <!-- <img class="footer-img" :src="$asseturl+'img/4mm.png'" alt="image1"> -->
                 <i class="fa-duotone fa-user"></i>
                 <p>MY</p>

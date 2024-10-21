@@ -14,7 +14,10 @@
                         <img :src="$asseturl+'img/slide1.jpg'" class="d-block w-100" alt="Slide 1">
                     </div>
                     <div class="carousel-item">
-                        <img :src="$asseturl+'img/s2.jpg?v=1'" class="d-block w-100" alt="Slide 2">
+                        <img :src="$asseturl+'img/slide2.jpg'" class="d-block w-100" alt="Slide 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img :src="$asseturl+'img/slide3.jpg'" class="d-block w-100" alt="Slide 3">
                     </div>
                 </div>
 
@@ -257,7 +260,7 @@ export default {
 
 
 .homeIcon i {
-    background: linear-gradient(45deg, var(--defaltColor), #6a2222);
+    background: linear-gradient(45deg, #3af6ff, #405600);
     color: white;
     width: 50px;
     height: 50px;

@@ -16,12 +16,16 @@
              --van-button-default-background-color:white;
              --defaltColor:#1891C8;
              --defaltColor2:#F72F31;
+             --defaltColor3:#ff26ce;
              --whiteColor:white;
         }
 
 
         .defaltColor{
             color: var(--defaltColor) !important;
+        }
+        .defaltColor3{
+            color: var(--defaltColor3) !important;
         }
         .whiteColor{
             color: var(--whiteColor) !important;
@@ -78,7 +82,7 @@
 
 
 
-<script src="{{ asset('js/backend.js?ver=1.0.10') }}"></script>
+<script src="{{ asset('js/backend.js?ver=1.0.11') }}"></script>
 
 
 

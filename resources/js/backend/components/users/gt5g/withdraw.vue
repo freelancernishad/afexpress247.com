@@ -63,7 +63,7 @@
         </div>
 
         <br/>
-        <p>Minimum withdrawal is 100BDT.After successful withdrawal you will get payment within 1-60 minutes via Bkash Nagad Rocket or USD. thanks</p>
+        <p>Minimum withdrawal is 100BDT.After successful withdrawal you will get payment within 1-30 minutes via Bkash Nagad Rocket or USD. thanks</p>
 
 
 
@@ -98,16 +98,16 @@ export default {
 
 
 
-        // if(User.dateformat()[9]<=16){
-        //     if(User.dateformat()[9]>=10){
-        //     }else{
-        //         alert('প্রত্যাহার সময় সকাল ১০:০০ থেকে বিকাল ০৫:০০ টা পর্যন্ত')
-        //         this.$router.push({ name: 'Authuser' });
-        //     }
-        // }else{
-        //     alert('প্রত্যাহার সময় সকাল ১০:০০ থেকে বিকাল ০৫:০০ টা পর্যন্ত')
-        //     this.$router.push({ name: 'Authuser' });
-        // }
+        if(User.dateformat()[9]<=21){
+            if(User.dateformat()[9]>=10){
+            }else{
+                alert('প্রত্যাহার সময় সকাল ১০টা থেকে রাত ১০টা পর্যন্ত')
+                this.$router.push({ name: 'Authuser' });
+            }
+        }else{
+            alert('প্রত্যাহার সময় সকাল ১০টা থেকে রাত ১০টা পর্যন্ত')
+            this.$router.push({ name: 'Authuser' });
+        }
     },
     data(){
         return {
