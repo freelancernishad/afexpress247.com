@@ -78,7 +78,7 @@ class authController extends Controller
         if($CountUser>0){
             $lastUser = User::latest()->first();
 
-          $usernameInt =  explode('SF',$lastUser->username)[1];
+          $usernameInt =  explode('AF',$lastUser->username)[1];
 
 
             $username =  intval($usernameInt)+1;
