@@ -82,7 +82,7 @@ class authController extends Controller
 
 
             $username =  intval($usernameInt)+1;
-             $username = "SF$username";
+             $username = "AF$username";
 
         }else{
             $username =  '27788';
