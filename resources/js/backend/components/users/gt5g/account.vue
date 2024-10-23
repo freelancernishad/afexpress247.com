@@ -102,14 +102,14 @@
     </router-link>
 </div>
 
-<!-- <div class="mx-4 my-3 py-2 shadow-lg rounded-3 defaltColorBg ">
-    <a :href="$asseturl+'SF_EXPRESS_17502980.apk'"  class="mx-3 whiteColor">
+ <div class="mx-4 my-3 py-2 shadow-lg rounded-3 defaltColorBg ">
+    <a :href="$asseturl+'AF_EXPRESS_18352080.apk'"  class="mx-3 whiteColor">
 
         <i class="fas fa-download"></i>
         <p class="d-inline fw-bold mb-0 ms-1">Download APP</p>
     </a>
 
-</div> -->
+</div>
 
 
 <div v-if="settings.telegroup" class="mx-4 my-3 py-2 shadow-lg rounded-3 defaltColorBg ">
